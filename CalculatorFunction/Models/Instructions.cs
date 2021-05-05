@@ -12,28 +12,21 @@ namespace CalculatorFunction.Models
         {
             try
             {
-                var instructions = calculatorInstructions.Split(Environment.NewLine,StringSplitOptions.RemoveEmptyEntries);
+                var instructions = calculatorInstructions.Split(Environment.NewLine, StringSplitOptions.RemoveEmptyEntries);
                 List<Instructions> instructionList = new List<Instructions>();
-                for (int i = 0; i < instructions.Length; i++)
-                {
-                    var inst = instructions[i].Split(" ");
-                    if (i != 0)
-                    {
-                        var newValue = instructions[i - 1].Split(" ")[0];
-                        instructionList.Add(new Instructions { Keyword = newValue, Number = inst[1] });
-                    }
-                    else
-                    {
-                        instructionList.Add(new Instructions { Keyword = "apply", Number = inst[1] });
-                    }
-                }
 
+                foreach(var instruction in instructions)
+                {
+                    var inst = instruction.Split(" ",StringSplitOptions.RemoveEmptyEntries);
+                    instructionList.Add(new Instructions { Keyword = inst[0], Number = inst[1] });
+                }
                 return instructionList;
             }
             catch (Exception ex)
             {
                 throw;
             }
+            
         }
     }
 }

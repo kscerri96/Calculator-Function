@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NZSvvmu+ruLE5Mupq7N5q6TCpuTRZ2MbettXWlw1TGvQRb1lMqKq2v04epuD4j5pT0NxrmULDtjXxltE4KBWoQ==",
+  "dgSpecHash": "4y9A+vtKJSyMlPUhX38Y+lYKon5XjtGyanIRS1mSWONzkYdEHpMmK82xuD74+4vI+reZPVLhTAJsxiegX7buxQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\kscerri\\source\\repos\\Calculator\\Calculator.Unit.Tests\\Calculator.Unit.Tests.csproj",
   "expectedPackageFiles": [
@@ -163,7 +163,8 @@
     "C:\\Users\\kscerri\\.nuget\\packages\\xunit.assert\\2.4.1\\xunit.assert.2.4.1.nupkg.sha512",
     "C:\\Users\\kscerri\\.nuget\\packages\\xunit.core\\2.4.1\\xunit.core.2.4.1.nupkg.sha512",
     "C:\\Users\\kscerri\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
-    "C:\\Users\\kscerri\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512"
+    "C:\\Users\\kscerri\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
+    "C:\\Users\\kscerri\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
   "logs": [
     {

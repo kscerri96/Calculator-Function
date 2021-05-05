@@ -153,3 +153,6 @@ C:\Users\kscerri\source\repos\Calculator\Calculator.Unit.Tests\obj\Debug\netcore
 C:\Users\kscerri\source\repos\Calculator\Calculator.Unit.Tests\obj\Debug\netcoreapp3.1\Calculator.Unit.Tests.dll
 C:\Users\kscerri\source\repos\Calculator\Calculator.Unit.Tests\obj\Debug\netcoreapp3.1\Calculator.Unit.Tests.pdb
 C:\Users\kscerri\source\repos\Calculator\Calculator.Unit.Tests\obj\Debug\netcoreapp3.1\Calculator.Unit.Tests.genruntimeconfig.cache
+C:\Users\kscerri\source\repos\Calculator\Calculator.Unit.Tests\bin\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\kscerri\source\repos\Calculator\Calculator.Unit.Tests\bin\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\kscerri\source\repos\Calculator\Calculator.Unit.Tests\bin\Debug\netcoreapp3.1\xunit.runner.utility.netcoreapp10.dll

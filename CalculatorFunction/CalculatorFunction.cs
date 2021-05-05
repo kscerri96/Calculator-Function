@@ -32,11 +32,11 @@ namespace CalculatorFunction
 
                 var instructionList = Instructions.GetInstructionList(calculatorInstructions);
 
-                var result = float.Parse(instructionList[0].Number);
+                var result = float.Parse(instructionList[instructionList.Count - 1].Number);
 
                 foreach (var instruct in instructionList)
                 {
-                    switch (instruct.Keyword)
+                    switch (instruct.Keyword.ToLower())
                     {
                         case "add":
                             result += float.Parse(instruct.Number);
