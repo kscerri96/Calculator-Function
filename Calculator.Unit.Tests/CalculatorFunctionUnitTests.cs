@@ -55,7 +55,7 @@ namespace Calculator.Unit.Tests
         }
 
         [Fact]
-        public async Task ResultasExpected()
+        public async Task ResultAsExpected()
         {
             var mockRequest = new Mock<HttpRequest>();
             var mockLogger = new Mock<ILogger>();
@@ -81,7 +81,7 @@ namespace Calculator.Unit.Tests
         }
 
         [Fact]
-        public async Task InvalidRequest_KeyWordNotValid()
+        public async Task InvalidRequest_KeywordNotValid()
         {
             var mockRequest = new Mock<HttpRequest>();
             var mockLogger = new Mock<ILogger>();
@@ -117,7 +117,7 @@ namespace Calculator.Unit.Tests
         }
 
         [Fact]
-        public async Task HandleDevideBy0()
+        public async Task HandleDivideBy0()
         {
             var mockRequest = new Mock<HttpRequest>();
             var mockLogger = new Mock<ILogger>();
@@ -188,7 +188,7 @@ namespace Calculator.Unit.Tests
         }
 
         [Fact]
-        public async Task HandleExtraSpacesBetweenKeyworAndNumber()
+        public async Task HandleExtraSpacesBetweenKeywordAndNumber()
         {
             var mockRequest = new Mock<HttpRequest>();
             var mockLogger = new Mock<ILogger>();

@@ -2565,7 +2565,7 @@
       },
       "CalculatorFunction/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Microsoft.NET.Sdk.Functions": "1.0.38"
         },

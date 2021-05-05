@@ -63,7 +63,7 @@ namespace CalculatorFunction
             }
             catch (Exception ex)
             {
-                return new BadRequestObjectResult("An error has occured.");
+                return new BadRequestObjectResult("An error has occurred.");
             }
         }
     }

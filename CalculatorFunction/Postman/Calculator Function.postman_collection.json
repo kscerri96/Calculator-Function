@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "687d93e5-5f9b-41c9-9664-e85a36790aa0",
+		"name": "Calculator Function",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Request Calculator",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7071/api/Calculator",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"Calculator"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
