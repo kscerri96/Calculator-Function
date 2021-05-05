@@ -28,7 +28,10 @@ namespace CalculatorFunction
                 var calculatorInstructions = _functionHelpers.LoadInstructionsfromFile(Assembly.GetExecutingAssembly(), "CalculatorFunction.Instructions.txt");
 
                 if (string.IsNullOrEmpty(calculatorInstructions))
+                {
+                    log.LogError("Instruction file is either not found or is empty.");
                     return new BadRequestObjectResult("Instruction File is empty or not found.");
+                }
 
                 var instructionList = Instructions.GetInstructionList(calculatorInstructions);
 
@@ -53,16 +56,19 @@ namespace CalculatorFunction
                         case "apply":
                             break;
                         default:
+                            log.LogError($"keyword is not valid {instruct.Keyword}");
                             return new BadRequestObjectResult("Keyword in instruction file is not valid.");
                     }
                 }
 
                 CalculatorResponse response = new CalculatorResponse() { Result = result };
 
+                log.LogInformation($"Result Calculated {result}");
                 return new OkObjectResult(response);
             }
             catch (Exception ex)
             {
+                log.LogError($"An erro has occured {ex.Message}");
                 return new BadRequestObjectResult("An error has occurred.");
             }
         }

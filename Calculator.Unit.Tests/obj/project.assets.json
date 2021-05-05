@@ -311,10 +311,10 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll": {}
         }
       },
-      "Microsoft.Azure.WebJobs/3.0.14": {
+      "Microsoft.Azure.WebJobs/3.0.23": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Azure.WebJobs.Core": "3.0.14",
+          "Microsoft.Azure.WebJobs.Core": "3.0.23",
           "Microsoft.Extensions.Configuration": "2.1.0",
           "Microsoft.Extensions.Configuration.Abstractions": "2.1.0",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "2.1.0",
@@ -333,7 +333,7 @@
           "lib/netstandard2.0/Microsoft.Azure.WebJobs.Host.dll": {}
         }
       },
-      "Microsoft.Azure.WebJobs.Core/3.0.14": {
+      "Microsoft.Azure.WebJobs.Core/3.0.23": {
         "type": "package",
         "dependencies": {
           "System.ComponentModel.Annotations": "4.4.0",
@@ -346,11 +346,11 @@
           "lib/netstandard2.0/Microsoft.Azure.WebJobs.dll": {}
         }
       },
-      "Microsoft.Azure.WebJobs.Extensions/3.0.5": {
+      "Microsoft.Azure.WebJobs.Extensions/3.0.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Azure.WebJobs": "3.0.14",
-          "Microsoft.Azure.WebJobs.Host.Storage": "3.0.11",
+          "Microsoft.Azure.WebJobs.Host.Storage": "3.0.14",
           "ncrontab.signed": "3.3.0"
         },
         "compile": {
@@ -360,7 +360,7 @@
           "lib/netstandard2.0/Microsoft.Azure.WebJobs.Extensions.dll": {}
         }
       },
-      "Microsoft.Azure.WebJobs.Extensions.Http/3.0.0": {
+      "Microsoft.Azure.WebJobs.Extensions.Http/3.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNet.WebApi.Client": "5.2.4",
@@ -368,7 +368,7 @@
           "Microsoft.AspNetCore.Mvc.Formatters.Json": "2.1.0",
           "Microsoft.AspNetCore.Mvc.WebApiCompatShim": "2.1.0",
           "Microsoft.AspNetCore.Routing": "2.1.0",
-          "Microsoft.Azure.WebJobs": "3.0.0"
+          "Microsoft.Azure.WebJobs": "3.0.2"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Azure.WebJobs.Extensions.Http.dll": {}
@@ -377,10 +377,10 @@
           "lib/netstandard2.0/Microsoft.Azure.WebJobs.Extensions.Http.dll": {}
         }
       },
-      "Microsoft.Azure.WebJobs.Host.Storage/3.0.13": {
+      "Microsoft.Azure.WebJobs.Host.Storage/3.0.14": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Azure.WebJobs": "3.0.13",
+          "Microsoft.Azure.WebJobs": "3.0.14",
           "WindowsAzure.Storage": "9.3.1"
         },
         "compile": {
@@ -718,12 +718,12 @@
           "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {}
         }
       },
-      "Microsoft.NET.Sdk.Functions/1.0.38": {
+      "Microsoft.NET.Sdk.Functions/3.0.11": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Azure.WebJobs": "[3.0.14, 3.1.0)",
-          "Microsoft.Azure.WebJobs.Extensions": "[3.0.5, 3.1.0)",
-          "Microsoft.Azure.WebJobs.Extensions.Http": "[3.0.0, 3.1.0)",
+          "Microsoft.Azure.WebJobs": "[3.0.23, 3.1.0)",
+          "Microsoft.Azure.WebJobs.Extensions": "3.0.6",
+          "Microsoft.Azure.WebJobs.Extensions.Http": "[3.0.2, 3.1.0)",
           "Microsoft.Azure.WebJobs.Script.ExtensionsMetadataGenerator": "1.2.0",
           "Newtonsoft.Json": "11.0.2"
         },
@@ -2567,7 +2567,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Microsoft.NET.Sdk.Functions": "1.0.38"
+          "Microsoft.NET.Sdk.Functions": "3.0.11"
         },
         "compile": {
           "bin/placeholder/CalculatorFunction.dll": {}
@@ -2899,63 +2899,63 @@
         "microsoft.aspnetcore.webutilities.nuspec"
       ]
     },
-    "Microsoft.Azure.WebJobs/3.0.14": {
-      "sha512": "0LV6fEI8xMUur/P2NaluWv6rmVkrErfEwBg38NclhRNLDW/wUgs05H10BolUZrnaFd77fGGFflW+gf82Fsq2OA==",
+    "Microsoft.Azure.WebJobs/3.0.23": {
+      "sha512": "/nb3DYXOoWSMA+VtDKnH2T65V3/Z9CqeIxXAECEKq5JH/4oF7XNjLuDLcU/kXRCQLTpYokUpSEpW6XkZ0NYyDQ==",
       "type": "package",
-      "path": "microsoft.azure.webjobs/3.0.14",
+      "path": "microsoft.azure.webjobs/3.0.23",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Azure.WebJobs.Host.dll",
-        "microsoft.azure.webjobs.3.0.14.nupkg.sha512",
+        "microsoft.azure.webjobs.3.0.23.nupkg.sha512",
         "microsoft.azure.webjobs.nuspec"
       ]
     },
-    "Microsoft.Azure.WebJobs.Core/3.0.14": {
-      "sha512": "p4R88nkOZTJqRkVjbedSEe08VtShiehGUBH0RjRVYldIpDyqtZUxsF9lcMsoaBrFjZl9vELQ4KTmrDXey7Z9ig==",
+    "Microsoft.Azure.WebJobs.Core/3.0.23": {
+      "sha512": "BKYXOdR97/aMcLlCrxV+fyJc7I8ciRJAhm03xVMtG30jfl3uNJqvpWg46u/pfDbjPBs0zdkogu5mSmrVtulCTQ==",
       "type": "package",
-      "path": "microsoft.azure.webjobs.core/3.0.14",
+      "path": "microsoft.azure.webjobs.core/3.0.23",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Azure.WebJobs.dll",
-        "microsoft.azure.webjobs.core.3.0.14.nupkg.sha512",
+        "microsoft.azure.webjobs.core.3.0.23.nupkg.sha512",
         "microsoft.azure.webjobs.core.nuspec"
       ]
     },
-    "Microsoft.Azure.WebJobs.Extensions/3.0.5": {
-      "sha512": "ILy5nfOlSvb1bZ6IiK6C4bT1mvm0FkVIvSQtDZxjDrKeJ2N8VDf4YNEo2JUgGmFK7YdYBMx8vzwQawqnZB9CIw==",
+    "Microsoft.Azure.WebJobs.Extensions/3.0.6": {
+      "sha512": "y7RgGsJFHhlD/2SIoQpgyjM1By9sbBpY9YaQCS183z743rErqBGAO3BrJ01z52IIveP2NW/7qLD1zm/bFI2MPg==",
       "type": "package",
-      "path": "microsoft.azure.webjobs.extensions/3.0.5",
+      "path": "microsoft.azure.webjobs.extensions/3.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Azure.WebJobs.Extensions.dll",
-        "microsoft.azure.webjobs.extensions.3.0.5.nupkg.sha512",
+        "microsoft.azure.webjobs.extensions.3.0.6.nupkg.sha512",
         "microsoft.azure.webjobs.extensions.nuspec"
       ]
     },
-    "Microsoft.Azure.WebJobs.Extensions.Http/3.0.0": {
-      "sha512": "FJ2THcZPOkNIhITUmpo5t2GvQZwjx6Omw8erGj/1eEaaOZjBulTnC/s5VihmOElM6eccI2ddewE/a31VEmfAAA==",
+    "Microsoft.Azure.WebJobs.Extensions.Http/3.0.2": {
+      "sha512": "JvC3fESMMbNkYbpaJ4vkK4Xaw1yZy4HSxxqwoaI3Ls2Y5/qBrHftPy0WJQgmXcGjgE/o/aAmuixdTfrj5OQDJQ==",
       "type": "package",
-      "path": "microsoft.azure.webjobs.extensions.http/3.0.0",
+      "path": "microsoft.azure.webjobs.extensions.http/3.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Azure.WebJobs.Extensions.Http.dll",
-        "microsoft.azure.webjobs.extensions.http.3.0.0.nupkg.sha512",
+        "microsoft.azure.webjobs.extensions.http.3.0.2.nupkg.sha512",
         "microsoft.azure.webjobs.extensions.http.nuspec"
       ]
     },
-    "Microsoft.Azure.WebJobs.Host.Storage/3.0.13": {
-      "sha512": "1mhUmOhD+LJlzukpYr+pk+mD3TA5CdLAIwoFulevT34avrn+3Bo/qZmNS48tCUck9nf+ewMOKB+FxwEzAkAf4A==",
+    "Microsoft.Azure.WebJobs.Host.Storage/3.0.14": {
+      "sha512": "1M9VzF4/skqaFezaNI6QUo5ftI1ifGAc6TQfbDdi94lUkUcnSnlBq/uBzx1P73SQgY9WzIE0KZn2+DOx6CL9Sg==",
       "type": "package",
-      "path": "microsoft.azure.webjobs.host.storage/3.0.13",
+      "path": "microsoft.azure.webjobs.host.storage/3.0.14",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Azure.WebJobs.Host.Storage.dll",
-        "microsoft.azure.webjobs.host.storage.3.0.13.nupkg.sha512",
+        "microsoft.azure.webjobs.host.storage.3.0.14.nupkg.sha512",
         "microsoft.azure.webjobs.host.storage.nuspec"
       ]
     },
@@ -3422,10 +3422,10 @@
         "microsoft.net.http.headers.nuspec"
       ]
     },
-    "Microsoft.NET.Sdk.Functions/1.0.38": {
-      "sha512": "HrKr55klyg4Dya64xIbnOo6DA4IMPNJl6GctjZK6cG0Wso/jhKBJuF+5w/65agIkB2DIlwQqLNhPIAzdTB4QDA==",
+    "Microsoft.NET.Sdk.Functions/3.0.11": {
+      "sha512": "R92J7RJX+VxQ3pc0ZkduVHIR6tjmDJJE0yGLX9T41S5UFODfLpZ9ykiQcChaGovS3eYLRftm+2gYFTWQtoY5ZA==",
       "type": "package",
-      "path": "microsoft.net.sdk.functions/1.0.38",
+      "path": "microsoft.net.sdk.functions/3.0.11",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -3439,22 +3439,14 @@
         "build/Microsoft.NET.Sdk.Functions.Version.props",
         "build/Microsoft.NET.Sdk.Functions.props",
         "build/Microsoft.NET.Sdk.Functions.targets",
-        "microsoft.net.sdk.functions.1.0.38.nupkg.sha512",
+        "microsoft.net.sdk.functions.3.0.11.nupkg.sha512",
         "microsoft.net.sdk.functions.nuspec",
-        "tools/net46/Microsoft.NET.Sdk.Functions.Generator.exe",
-        "tools/net46/Microsoft.NET.Sdk.Functions.MSBuild.dll",
-        "tools/net46/Microsoft.NET.Sdk.Functions.dll",
-        "tools/net46/Mono.Cecil.dll",
-        "tools/net46/Newtonsoft.Json.dll",
-        "tools/net46/System.Net.Http.dll",
-        "tools/net46/System.ValueTuple.dll",
-        "tools/net46/netstandard.dll",
-        "tools/netcoreapp2.1/Microsoft.NET.Sdk.Functions.Generator.dll",
-        "tools/netcoreapp2.1/Microsoft.NET.Sdk.Functions.Generator.runtimeconfig.json",
-        "tools/netcoreapp2.1/Microsoft.NET.Sdk.Functions.MSBuild.dll",
-        "tools/netcoreapp2.1/Microsoft.NET.Sdk.Functions.dll",
-        "tools/netcoreapp2.1/Mono.Cecil.dll",
-        "tools/netcoreapp2.1/Newtonsoft.Json.dll"
+        "tools/netcoreapp3.1/Microsoft.NET.Sdk.Functions.Generator.dll",
+        "tools/netcoreapp3.1/Microsoft.NET.Sdk.Functions.Generator.runtimeconfig.json",
+        "tools/netcoreapp3.1/Microsoft.NET.Sdk.Functions.MSBuild.dll",
+        "tools/netcoreapp3.1/Microsoft.NET.Sdk.Functions.dll",
+        "tools/netcoreapp3.1/Mono.Cecil.dll",
+        "tools/netcoreapp3.1/Newtonsoft.Json.dll"
       ]
     },
     "Microsoft.NET.Test.Sdk/16.5.0": {
@@ -8179,17 +8171,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Microsoft.Azure.WebJobs.Extensions 3.0.5 depends on Microsoft.Azure.WebJobs.Host.Storage (>= 3.0.11) but Microsoft.Azure.WebJobs.Host.Storage 3.0.11 was not found. An approximate best match of Microsoft.Azure.WebJobs.Host.Storage 3.0.13 was resolved.",
-      "libraryId": "Microsoft.Azure.WebJobs.Host.Storage",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  }
 }
