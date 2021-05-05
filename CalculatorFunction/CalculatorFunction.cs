@@ -8,6 +8,7 @@ using CalculatorFunction.Helpers;
 using System.Reflection;
 using CalculatorFunction.Models;
 using System;
+using System.Linq;
 
 namespace CalculatorFunction
 {
@@ -35,7 +36,7 @@ namespace CalculatorFunction
 
                 var instructionList = Instructions.GetInstructionList(calculatorInstructions);
 
-                var result = float.Parse(instructionList[instructionList.Count - 1].Number);
+                var result = float.Parse(instructionList.Where(x => x.Keyword == "apply").FirstOrDefault().Number);
 
                 foreach (var instruct in instructionList)
                 {
