@@ -228,17 +228,9 @@ namespace Calculator.Unit.Tests
             var function = new CalculatorFunction.CalculatorFunction(mockFileWrapper.Object);
             var result = await function.Calculator(mockRequest.Object, mockLogger.Object);
 
-            var request = new CalculatorResponse
-            {
-                Result = 21
-            };
-
             var objectResult = result as ObjectResult;
 
-            var value = objectResult.Value as CalculatorResponse;
-
-            Xunit.Assert.Equal(value.Result, request.Result);
-            Xunit.Assert.Equal(200, objectResult?.StatusCode.Value);
+            Xunit.Assert.Equal(400, objectResult?.StatusCode.Value);
         }
     }
 }

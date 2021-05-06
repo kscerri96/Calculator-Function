@@ -36,7 +36,7 @@ namespace CalculatorFunction
 
                 var instructionList = Instructions.GetInstructionList(calculatorInstructions);
 
-                var result = float.Parse(instructionList.Where(x => x.Keyword == "apply").FirstOrDefault().Number);
+                var result = float.Parse(instructionList.Where(x => x.Keyword == "apply").FirstOrDefault()?.Number);
 
                 foreach (var instruct in instructionList)
                 {
@@ -69,7 +69,7 @@ namespace CalculatorFunction
             }
             catch (Exception ex)
             {
-                log.LogError($"An erro has occured {ex.Message}");
+                log.LogError($"An error has occured {ex.Message}");
                 return new BadRequestObjectResult("An error has occurred.");
             }
         }

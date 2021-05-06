@@ -12,7 +12,7 @@ namespace CalculatorFunction.Models
         {
             try
             {
-                var instructions = calculatorInstructions.Split(Environment.NewLine, StringSplitOptions.RemoveEmptyEntries);
+                var instructions = calculatorInstructions.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries);
                 List<Instructions> instructionList = new List<Instructions>();
 
                 foreach(var instruction in instructions)
